@@ -27,6 +27,13 @@
 - Attach workflow that works: not yet tested.
 - Injection vector that works (proxy DLL name / injector / framework): not yet tested.
 
+**🎮 2026-09-17 (home PC `RTX`, `/lm`) — FIRST LIVE LOOK.**
+- **Runs:** ⚠️ **Steam launch opens the 2K launcher, which failed with `Initialization error. Please ensure the game files have not been corrupted or moved.`** on this install `[verified-live 2026-09-17, n=1]`. **Starting `Binaries\Win64\BorderlandsGOTY.exe` directly works** and reaches the `Press [ENTER]` title `[verified-live 2026-09-17, n=3]`.
+- **With our file added:** A 64-bit `d3d9.dll` proxy loads and the game runs with it `[verified-live 2026-09-17, n=1]` — **but it only saw `D3DPERF_BeginEvent`/`D3DPERF_EndEvent`, and `d3d11.dll` + `dxgi.dll` are loaded in the process: the Enhanced edition draws with Direct3D 11**, not 9 `[verified-live 2026-09-17, n=1]`. This corrects the 2026-09-15 static reading (`d3d9.dll` as the renderer, `[inferred-static]`). The VR foothold should be a `dxgi.dll`/`d3d11.dll` proxy. The proxy comes from the shared generator `staging/_shared/proxy-gen/` (every export of the real system dll re-exported with the same ordinals; first call of each export logged). 
+- **Windowed (for measuring; 1280×720 keeps aspect-keyed numbers the same on both PCs):** Command line `-windowed ResX=1280 ResY=720` → 1280×720 client window `[verified-live 2026-09-17, n=1]`. `WillowEngine.ini` `WindowMode=1` also gives a window, but the game rewrote `ResX/ResY` back to 1920×1080 at launch `[verified-live 2026-09-17, n=1]` — so use the command line for size. Backup: `WillowEngine.ini.bak-2026-09-17`.
+- **Driving it:** Start the exe directly with the flags above. First run shows a Windows Firewall prompt (Cancel pressed). `WM_CLOSE` exits cleanly.
+- **Dead ends:** The 2K launcher route failed on a clean install (`Initialization error…`) `[verified-live 2026-09-17, n=1]`. `WillowEngine.ini` `ResX/ResY` as the size route: rewritten by the game `[verified-live 2026-09-17, n=1]`. `d3d9.dll` as the renderer: disproved, it draws with D3D11 `[disproved 2026-09-17]`.
+
 ## 5. Threading & frame structure
 - Immediate context only, or deferred contexts + command lists?:
 - Which thread(s) do what; render-thread name(s):
