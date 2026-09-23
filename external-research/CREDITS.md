@@ -13,3 +13,8 @@ are not, or you are a rights holder who wants something corrected or removed, em
 - **DJ-RK**, 3D fix, and the **3DMigoto** developers — https://helixmod.blogspot.com/2019/10/borderlands-game-of-year-enhanced.html
 - **bl-sdk** project (unrealsdk, willow1-mod-manager) — https://github.com/bl-sdk
 - **apple1417** — https://apple1417.dev/posts/2025-01-15-unreal-object-layouts
+
+## Sources (2026-09-23)
+
+- **phunkaeg**, VR Modding Playbook — https://github.com/phunkaeg/vr-modding-playbook
+- **Mastersellz**, BL1GOTYVR — https://github.com/Mastersellz/BL1GOTYVR
