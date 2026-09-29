@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-23 (estate sweep) — FULL.** Checked against phunkaeg's *VR Modding Playbook*: a working, headset-tested VR mod for this exact build exists (BL1GOTYVR); topic written and a pointer dropped in `engine-research/inbox/`.
+**Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Inbox empty. Watch check: BL1GOTYVR is still active (a push to its `bl1gotyvr-stable-interaction` branch on 2026-09-19; latest release still V0.5.6.6 of 2026-09-11), so no change to report.
+
+_Previous: **Last `/gr` pass: 2026-09-23 (estate sweep) — FULL.** Checked against phunkaeg's *VR Modding Playbook*: a working, headset-tested VR mod for this exact build exists (BL1GOTYVR); topic written and a pointer dropped in `engine-research/inbox/`._
 
 _Previous: **Last `/gr` pass: 2026-09-17 (estate sweep) — CHECK-IN.** First pass: folder bootstrapped; one topic on the 3DMigoto stereo fix for this exact build and the BL1 PythonSDK (console and object access)._
 
