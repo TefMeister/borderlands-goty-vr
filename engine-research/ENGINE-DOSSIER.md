@@ -76,3 +76,10 @@
 ## 12. Open risks toward the North Star
 - ⚠️ The Steam DRM wrapper hides the code from static reading until unwrapped `[hypothesis]`.
 - Otherwise friendly: Unreal Engine 3 on Direct3D 9, the same combination as two existing projects here.
+
+## Inbox folds, 2026-09-29
+
+**A working VR mod for this exact build exists (`/gr` 2026-09-23).** Mastersellz's BL1GOTYVR (OpenXR, headset-tested, Win64/D3D11) loads through a `dxgi.dll` proxy; its notes say `PlayerController.PlayerCamera` is null in normal play and the live view is `WillowPlayerController.CalcViewLocation / CalcViewRotation / CachedFOVAngle` via UE3 reflection (reject `Default__*`), the per-frame hook is `WillowGameViewportClient::Draw`, and calling it twice per frame corrupts the heap `[reported]`. The project is paused for it (WATCHING.md). Topic: `external-research/topics/2026-09-23-bl1gotyvr-a-working-vr-mod-for-this-exact-build.md`.
+
+**Recon logs were silently ignored (`/gs` 2026-09-23): fixed 2026-09-29.** `.gitignore` now keeps `dev-archive/recon/**/*.log`.
+
