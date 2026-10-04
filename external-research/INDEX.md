@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Inbox empty. Watch check: BL1GOTYVR is still active (a push to its `bl1gotyvr-stable-interaction` branch on 2026-09-19; latest release still V0.5.6.6 of 2026-09-11), so no change to report.
+**Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** PAUSED (another VR mod). Watch check: BL1GOTYVR last commit 2026-09-19, latest release still V0.5.6.6 (2026-09-11). Nothing new.
+
+_Previous: **Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Inbox empty. Watch check: BL1GOTYVR is still active (a push to its `bl1gotyvr-stable-interaction` branch on 2026-09-19; latest release still V0.5.6.6 of 2026-09-11), so no change to report._
 
 _Previous: **Last `/gr` pass: 2026-09-23 (estate sweep) — FULL.** Checked against phunkaeg's *VR Modding Playbook*: a working, headset-tested VR mod for this exact build exists (BL1GOTYVR); topic written and a pointer dropped in `engine-research/inbox/`._
 
