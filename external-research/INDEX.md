@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** PAUSED (another VR mod). Watch check: BL1GOTYVR last commit 2026-09-19, latest release still V0.5.6.6 (2026-09-11). Nothing new.
+**Last `/gr` pass: 2026-10-07 (estate sweep) — CHECK-IN.** PAUSED (another VR mod). Watch check: BL1GOTYVR unchanged (V0.5.6.6, last commit 2026-09-13); three weeks quiet, not yet stalled. Nothing new.
+
+_Previous: **Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** PAUSED (another VR mod). Watch check: BL1GOTYVR last commit 2026-09-19, latest release still V0.5.6.6 (2026-09-11). Nothing new._
 
 _Previous: **Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Inbox empty. Watch check: BL1GOTYVR is still active (a push to its `bl1gotyvr-stable-interaction` branch on 2026-09-19; latest release still V0.5.6.6 of 2026-09-11), so no change to report._
 
