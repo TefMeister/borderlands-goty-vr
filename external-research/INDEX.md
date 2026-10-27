@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-10-23 (estate sweep) — CHECK-IN.** Inbox empty. Re-checked the other VR mod on WATCHING.md: BL1GOTYVR still at V0.5.7.3 (2026-10-12), last push the same day. Nothing new.
+**Last `/gr` pass: 2026-10-27 (estate sweep) — CHECK-IN.** Inbox empty. Watch check: BL1GOTYVR still at V0.5.7.3 (2026-10-12), no push since. Nothing new.
+
+_Previous: Last `/gr` pass: 2026-10-23 (estate sweep) — CHECK-IN. Inbox empty. Re-checked the other VR mod on WATCHING.md: BL1GOTYVR still at V0.5.7.3 (2026-10-12), last push the same day. Nothing new._
 
 _Previous: **Last `/gr` pass: 2026-10-11 (estate sweep) — CHECK-IN.** Inbox empty. Mastersellz's BL1GOTYVR is at V0.5.7.1 (2026-10-11; manual reloading, revolver WIP); WATCHING update dropped to engine-research/inbox._
 
