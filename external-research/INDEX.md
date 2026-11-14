@@ -1,6 +1,6 @@
 # Research index
 
-**Last `/gr` pass: 2026-11-01 (estate sweep) — CHECK-IN.** Watch list: BL1GOTYVR still at V0.5.7.3 (2026-10-12), already noted; nothing new.
+**Last `/gr` pass: 2026-11-14 — CHECK-IN.** Watch list: BL1GOTYVR released V0.5.7.4 (2026-11-12, hands stability); inbox drop sent.
 
 _Previous: **Last `/gr` pass: 2026-10-27 (estate sweep) — CHECK-IN.** Inbox empty. Watch check: BL1GOTYVR still at V0.5.7.3 (2026-10-12), no push since. Nothing new._
 
